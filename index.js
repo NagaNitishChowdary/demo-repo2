@@ -3,8 +3,12 @@ var arr2 = [...arr]
 
 console.log(arr2)
 
-var knnc = (...hari) => {
-    console.log(hari) ;     
+var knnc = (...h) => {
+    console.log(h) ;     
+}
+
+var hari = (...k) => {
+    console.log(k) ;
 }
 
 knnc(arr2)
